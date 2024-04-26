@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/EstilosF.css"> <!-- mandar traer los estilos-->
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+  <h1>Formulario de Contacto KinderABC</h1>
+<form action="#" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="nombre">Apellido:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="curso">Curso de interés:</label>
+    <select id="curso" name="curso">
+        <option value= "espacio en blanco"> </option>
+        <option value="primaria">Grado de Primaria</option>
+        <option value="kinder">Kinder</option>
+    </select>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono" name="telefono" required>
+
+    <label for="cita">Desea realizar una cita:</label>
+    <input type="checkbox" id="cita" name="cita" value="si"> Sí
+    <input type="checkbox" name="cita" value="no"> No
+
+    <label for="info">Desea obtener mayor información de los programas de estudio:</label>
+    <input type="checkbox" id="info" name="info" value="si"> Sí
+    <input type="checkbox" name="info" value="no"> No
+
+    <label for="visita">Desea visitarnos en nuestro plantel:</label>
+    <input type="checkbox" id="visita" name="visita" value="si"> Sí
+    <input type="checkbox" name="visita" value="no"> No
+
+    <label for="fecha_hora">Fecha y hora:</label>
+    <input type="datetime-local" id="fecha_hora" name="fecha_hora" required>
+
+    <label for="preguntas">¿Tiene alguna pregunta adicional?</label>
+    <textarea id="preguntas" name="preguntas" rows="4"></textarea>
+
+    <label for="contacto">Desea que uno de nuestros asistentes se contacte con usted en este momento:</label>
+    <input type="checkbox" id="contacto" name="contacto" value="si"> Sí
+    <input type="checkbox" name="contacto" value="no"> No
+
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</form>
+
+</body>
+</html>
